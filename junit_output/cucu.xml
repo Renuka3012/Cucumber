@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="85.384536">
+<testcase classname="Login" name="Successfull login with valid Credentials" time="36.523448">
+<system-out><![CDATA[Given User launch chrome browser............................................passed
+When User opens URL "https://admin-demo.nopcommerce.com/admin/#"............passed
+And User enters email as "admin@yourstore.com" and password as "admin"......passed
+And click on Login..........................................................passed
+Then PageTitle should be "Dashboard / nopCommerce administration"...........passed
+When User clicks Logout link................................................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Successfull login with valid Credentials" time="30.301656">
+<system-out><![CDATA[Given User launch chrome browser............................................passed
+When User opens URL "https://admin-demo.nopcommerce.com/admin/#"............passed
+And User enters email as "admin@yourstore.com" and password as "admin"......passed
+And click on Login..........................................................passed
+Then PageTitle should be "Dashboard / nopCommerce administration"...........passed
+When User clicks Logout link................................................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Successfull login with valid Credentials 2" time="9.95649">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at stepDefinition.Steps.pagetitle_should_be(Steps.java:66)&#13;&#10;&#9;at ✽.Then PageTitle should be &quot;Dashboard / nopCommerce administration&quot;(C:/Users/siva/Desktop/NewTours/nopCommerce001Cucumber/Features/login.feature:21)&#13;&#10;"><![CDATA[Given User launch chrome browser............................................passed
+When User opens URL "https://admin-demo.nopcommerce.com/admin/#"............passed
+And User enters email as "admin@yourstore.com" and password as "admin2".....passed
+And click on Login..........................................................passed
+Then PageTitle should be "Dashboard / nopCommerce administration"...........failed
+When User clicks Logout link................................................skipped
+And close browser...........................................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at stepDefinition.Steps.pagetitle_should_be(Steps.java:66)
+	at ✽.Then PageTitle should be "Dashboard / nopCommerce administration"(C:/Users/siva/Desktop/NewTours/nopCommerce001Cucumber/Features/login.feature:21)
+]]></failure>
+</testcase>
+<testcase classname="Login" name="Successfull login with valid Credentials 3" time="8.602942">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at stepDefinition.Steps.pagetitle_should_be(Steps.java:66)&#13;&#10;&#9;at ✽.Then PageTitle should be &quot;Dashboard / nopCommerce administration&quot;(C:/Users/siva/Desktop/NewTours/nopCommerce001Cucumber/Features/login.feature:21)&#13;&#10;"><![CDATA[Given User launch chrome browser............................................passed
+When User opens URL "https://admin-demo.nopcommerce.com/admin/#"............passed
+And User enters email as "admin" and password as "admin"....................passed
+And click on Login..........................................................passed
+Then PageTitle should be "Dashboard / nopCommerce administration"...........failed
+When User clicks Logout link................................................skipped
+And close browser...........................................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at stepDefinition.Steps.pagetitle_should_be(Steps.java:66)
+	at ✽.Then PageTitle should be "Dashboard / nopCommerce administration"(C:/Users/siva/Desktop/NewTours/nopCommerce001Cucumber/Features/login.feature:21)
+]]></failure>
+</testcase>
+</testsuite>

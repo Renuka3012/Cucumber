@@ -1,0 +1,486 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Successfull login with valid Credentials",
+        "description": "",
+        "id": "login;successfull-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4655634021,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch chrome browser",
+            "match": {
+              "location": "Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4739877333,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/admin/#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/admin/#",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 579053308,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters email as \"admin@yourstore.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 22
+                },
+                {
+                  "val": "admin",
+                  "offset": 60
+                }
+              ],
+              "location": "Steps.user_enters_email_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10813401942,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Login",
+            "match": {
+              "location": "Steps.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169097001,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "PageTitle should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.pagetitle_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14880612694,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks Logout link",
+            "match": {
+              "location": "Steps.user_clicks_Logout_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 685771244,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Successfull login with valid Credentials",
+        "description": "",
+        "id": "login;successfull-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2842337732,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User launch chrome browser",
+            "match": {
+              "location": "Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7261712300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/admin/#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/admin/#",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 591406925,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters email as \"admin@yourstore.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 22
+                },
+                {
+                  "val": "admin",
+                  "offset": 60
+                }
+              ],
+              "location": "Steps.user_enters_email_as_and_password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6922091071,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on Login",
+            "match": {
+              "location": "Steps.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152090400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "PageTitle should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.pagetitle_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11832661075,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks Logout link",
+            "match": {
+              "location": "Steps.user_clicks_Logout_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 699356480,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "close browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Successfull login with valid Credentials",
+        "description": "",
+        "id": "login;successfull-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2694136590,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User launch chrome browser",
+            "match": {
+              "location": "Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5456942555,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/admin/#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/admin/#",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 595847393,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters email as \"admin@yourstore.com\" and password as \"admin2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 22
+                },
+                {
+                  "val": "admin2",
+                  "offset": 60
+                }
+              ],
+              "location": "Steps.user_enters_email_as_and_password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 729209947,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on Login",
+            "match": {
+              "location": "Steps.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 480353571,
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat stepDefinition.Steps.pagetitle_should_be(Steps.java:66)\r\n\tat ✽.Then PageTitle should be \"Dashboard / nopCommerce administration\"(C:/Users/siva/Desktop/NewTours/nopCommerce001Cucumber/Features/login.feature:21)\r\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "PageTitle should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.pagetitle_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User clicks Logout link",
+            "match": {
+              "location": "Steps.user_clicks_Logout_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "close browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Successfull login with valid Credentials",
+        "description": "",
+        "id": "login;successfull-login-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2664367645,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User launch chrome browser",
+            "match": {
+              "location": "Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3428903310,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/admin/#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/admin/#",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 911128458,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters email as \"admin\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 22
+                },
+                {
+                  "val": "admin",
+                  "offset": 46
+                }
+              ],
+              "location": "Steps.user_enters_email_as_and_password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311501687,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on Login",
+            "match": {
+              "location": "Steps.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1287041381,
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat stepDefinition.Steps.pagetitle_should_be(Steps.java:66)\r\n\tat ✽.Then PageTitle should be \"Dashboard / nopCommerce administration\"(C:/Users/siva/Desktop/NewTours/nopCommerce001Cucumber/Features/login.feature:21)\r\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "PageTitle should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.pagetitle_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User clicks Logout link",
+            "match": {
+              "location": "Steps.user_clicks_Logout_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "close browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/siva/Desktop/NewTours/nopCommerce001Cucumber/Features/login.feature"
+  }
+]
